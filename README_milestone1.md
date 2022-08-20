@@ -1,4 +1,4 @@
-# Warmup Project - CptS322 - Fall 2021
+# Warmup Project - CptS322 - Fall 2022
 
 Before we jump into the main team projects, we will practice  web
 development by building a simple message portal called "Smile". 
@@ -43,14 +43,14 @@ In part 1, we will focus on the basic features of the app : displaying "smile" p
 ---
 To help you start we have provided some boilerplate files that you will have to modify to implement the project.
 
-Similar to the StudentApp exercise, you will commit your code to a repository under the CptS 322 GitHub classroom organization : `WSU-CptS322-Fall2021`  
+Similar to the StudentApp exercise, you will commit your code to a repository under the CptS 322 GitHub classroom organization : `WSU-CptS322-Fall2022`  
 
 
 1. Copy the below GitHub Assignment URL, and paste and open in a browser:
 
     [https://classroom.github.com/a/DUQKqO3q](https://classroom.github.com/a/DUQKqO3q)
 
-    Accept the assignment and follow the steps. An assignment repository will be created for you under the  `WSU-CptS322-Fall2021` organization. GitHub will automatically commit the starter code provided to this repository.  This is your remote repo.
+    Accept the assignment and follow the steps. An assignment repository will be created for you under the  `WSU-CptS322-Fall2022` organization. GitHub will automatically commit the starter code provided to this repository.  This is your remote repo.
  
 2. Create an empty project directory locally. Make sure this directory does not have another Git instance in its path. i.e. No parent directory and no child directory may also have a git instance.
    * Create the directory and go into that directory:   
