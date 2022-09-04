@@ -48,9 +48,9 @@ Similar to the StudentApp exercise, you will commit your code to a repository un
 
 1. Copy the below GitHub Assignment URL, and paste and open in a browser:
 
-    [https://classroom.github.com/a/DUQKqO3q](https://classroom.github.com/a/DUQKqO3q)
+    [https://classroom.github.com/a/wi4wRory](https://classroom.github.com/a/wi4wRory)
 
-    Accept the assignment and follow the steps. An assignment repository will be created for you under the  `WSU-CptS322-Fall2022` organization. GitHub will automatically commit the starter code provided to this repository.  This is your remote repo.
+    Accept the assignment and follow the steps. An assignment repository will be created for you under the  `WSU-CptS322-Fall2022` organization. GitHub will automatically commit the starter code provided to this repository. This is your remote repo.
  
 2. Create an empty project directory locally. Make sure this directory does not have another Git instance in its path. i.e. No parent directory and no child directory may also have a git instance.
    * Create the directory and go into that directory:   
