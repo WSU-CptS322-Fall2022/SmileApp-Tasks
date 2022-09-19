@@ -140,7 +140,7 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
    3. Next, add a relationship attribute called `tags` to the `Post` model. See the `Class.roster` and `Student.classes` relationship declerations in StudentApp class exercise for examples.
 
-   The `tags` relationship should reference to the `Tag` table through `post_tags`. You should configure the other arguments of the  `tags` relationship as follows:
+   The `tags` relationship should reference to the `Tag` table through `postTags`. You should configure the other arguments of the  `tags` relationship as follows:
 
    ```python
     secondary = postTags
