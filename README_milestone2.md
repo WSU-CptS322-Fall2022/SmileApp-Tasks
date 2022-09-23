@@ -126,19 +126,14 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
    2. In `models.py`, add a SQLAlchemy association table called `postTags` (use `db.Table` SQLAlchemy funtion to create this table - for examples, see the `assigned` table in the [Flask class example](https://github.com/WSU-CptS-arslanay/FlaskLectureExample/tree/main/13-SQLAlchemy_ManytoMany) OR the `enrolled` table we defined in StudentApp application (Version 10.b)). This table will store the associations between posts and the tags. Note that a post may be associated with multiple tags, and a tag can be associated to many posts. 
 
-   **Important note:** In the file, `postTags` definition should be placed before both `Post` and `Tag` definitions. 
+**Important note:** In the file, `postTags` definition should be placed before both `Post` and `Tag` definitions. 
 
-  `postTags` should have the following attributes:
+`postTags` should have the following attributes:
 
-      |   | Field name | Description | Field type | Constraints | Comments |
-      | :- | :-: | :-: | :-: | :-: | :-: |
-      |  | id | auto generated id | integer | primary key | id of the Tag |
-      |  | name | tag name | string | max 20 chars | for example: "funny","inspiring", etc. |
-      
-      |    | Field name | Description | Field type | Constraints | Comments |
-      | :- | :-: | :-: | :-: | :-: | :-: |
-      |    | post_id | id of the post | integer | foreign key to `post.id` |   |
-      |    | tag_id | the id of the tag | integer | foreign key to `tag.id` |   |
+|    | Field name | Description | Field type | Constraints | Comments |
+| :- | :-: | :-: | :-: | :-: | :-: |
+|    | post_id | id of the post | integer | foreign key to `post.id` |   |
+|    | tag_id | the id of the tag | integer | foreign key to `tag.id` |   |
 
 
    Also, add a `__repr__` method to `Tag` model for printing tags. You should print the id and name of each tag.  See the `__repr__` methods in the class exercises.
