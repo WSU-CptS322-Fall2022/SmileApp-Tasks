@@ -128,7 +128,7 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
    **Important note:** In the file, `postTags` definition should be placed before both `Post` and `Tag` definitions. 
 
-   `postTags` should have the following attributes:
+       `postTags` should have the following attributes:
 
      |    | Field name | Description | Field type | Constraints | Comments |
      | :- | :-: | :-: | :-: | :-: | :-: |
@@ -333,7 +333,7 @@ Lastly, we will add sorting functionality to our app. The user will be able to s
    
    **Remember:** The `SortForm` instance you created needs to be passed to the `render_template` call for rendering. 
     
-   **Important Note:** To understand the sortform data you receive in the POST response (i.e., sform.choice.data) and make sure to print this value in your route view function. If the `SelectField` in your sort form is supposed to return you an integer value, you will receive it as `string` and you may convert it to an int value by using the Python `int()` function, i.e., `int(sform.choice.data)`.    
+   **Important Note:** To understand the sortform data you receive in the POST response (i.e., `sform.choice.data`) and make sure to print this value in your route view function. If the `SelectField` in your sort form is supposed to return you an `integer` value, you will receive it as `string` and you may convert it to an `int` value by using the Python `int()` function, i.e., `int(sform.choice.data)`.    
 
 4. In `index.html` style the sortorder form element using the `formselect` CSS element we defined in milestone1. 
    
