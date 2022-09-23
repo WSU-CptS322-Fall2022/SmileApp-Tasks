@@ -323,16 +323,17 @@ Lastly, we will add sorting functionality to our app. The user will be able to s
    
 3. In `routes.py`, edit the `routes.index` route function. 
    
-   * Add `'POST'` to the route `mothods`. 
+   * Add `'POST'` to the route `methods`. 
    * Create a `SortForm` instance in the  `index()` route function. 
    * When the form is submitted, you should retrive all posts from the database sorted based on the search field that was sent in the form. 
       * **Hint:** You should use the `order_by` function of the SQLAlchemy query object. Remember that, you need to pass a SQLAlchemy model column as argument to `order_by`. Include the `.desc()` after the column to sort in decsending order. [https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending](https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending)
    * Otherwise, all posts should be sorted by most recent timestamp. 
-   * You can use helper functions to get the sort attribute.
+   * You can use helper functions to get the sort attribute. 
    * Make sure to import `SortForm` in routes.py.
    
    **Remember:** The `SortForm` instance you created needs to be passed to the `render_template` call for rendering. 
-
+    
+   **Important Note:** To understand the sortform data you receive in the POST response (i.e., sform.choice.data) and make sure to print this value in your route view function. If the `SelectField` in your sort form is supposed to return you an integer value, you will receive it as `string` and you may convert it to an int value by using the Python `int()` function, i.e., `int(sform.choice.data)`.    
 
 4. In `index.html` style the sortorder form element using the `formselect` CSS element we defined in milestone1. 
    
