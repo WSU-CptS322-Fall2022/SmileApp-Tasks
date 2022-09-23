@@ -130,6 +130,11 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
   `postTags` should have the following attributes:
 
+      |   | Field name | Description | Field type | Constraints | Comments |
+      | :- | :-: | :-: | :-: | :-: | :-: |
+      |  | id | auto generated id | integer | primary key | id of the Tag |
+      |  | name | tag name | string | max 20 chars | for example: "funny","inspiring", etc. |
+      
       |    | Field name | Description | Field type | Constraints | Comments |
       | :- | :-: | :-: | :-: | :-: | :-: |
       |    | post_id | id of the post | integer | foreign key to `post.id` |   |
