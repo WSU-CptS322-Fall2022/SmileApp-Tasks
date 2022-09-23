@@ -130,10 +130,10 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
   `postTags` should have the following attributes:
 
-     |    | Field name | Description | Field type | Constraints | Comments |
-     | :- | :-: | :-: | :-: | :-: | :-: |
-     |    | post_id | id of the post | integer | foreign key to `post.id` |   |
-     |    | tag_id | the id of the tag | integer | foreign key to `tag.id` |   |
+      |    | Field name | Description | Field type | Constraints | Comments |
+      | :- | :-: | :-: | :-: | :-: | :-: |
+      |    | post_id | id of the post | integer | foreign key to `post.id` |   |
+      |    | tag_id | the id of the tag | integer | foreign key to `tag.id` |   |
 
 
    Also, add a `__repr__` method to `Tag` model for printing tags. You should print the id and name of each tag.  See the `__repr__` methods in the class exercises.
