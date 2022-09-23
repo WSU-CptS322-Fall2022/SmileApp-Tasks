@@ -128,7 +128,7 @@ In our Smile Portal app, the users will be able to associate some predefined tag
 
    **Important note:** In the file, `postTags` definition should be placed before both `Post` and `Tag` definitions. 
 
-       `postTags` should have the following attributes:
+  `postTags` should have the following attributes:
 
      |    | Field name | Description | Field type | Constraints | Comments |
      | :- | :-: | :-: | :-: | :-: | :-: |
